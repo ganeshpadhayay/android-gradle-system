@@ -1,1 +1,1 @@
-/Users/b0218868/Personal/Android/androidgradlesystem/buildSrc/build/classes/kotlin/main/Deps.class:/Users/b0218868/Personal/Android/androidgradlesystem/buildSrc/build/classes/kotlin/main/Versions.class
+/Users/b0218868/Personal/Android/androidgradlesystem/buildSrc/build/classes/kotlin/main/Dependencies.class:/Users/b0218868/Personal/Android/androidgradlesystem/buildSrc/build/classes/kotlin/main/Versions.class
