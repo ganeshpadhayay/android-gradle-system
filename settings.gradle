@@ -1,2 +1,4 @@
+include ':module2'
+include ':module1'
 include ':app'
 rootProject.name = "android-gradle-system"
