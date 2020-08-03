@@ -3,13 +3,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion rootProject.ext.versions.compileSdkVersion
-    buildToolsVersion rootProject.ext.versions.buildToolsVersion
+    compileSdkVersion Versions.compileSdkVersion
+    buildToolsVersion Versions.buildToolsVersion
 
     defaultConfig {
         applicationId "com.example.android_gradle_system"
-        minSdkVersion rootProject.ext.versions.minSdkVersion
-        targetSdkVersion rootProject.ext.versions.targetSdkVersion
+        minSdkVersion Versions.minSdkVersion
+        targetSdkVersion Versions.targetSdkVersion
         versionCode 1
         versionName "1.0"
 
@@ -32,17 +32,17 @@ dependencies {
     implementation project(path: ':module2')
 
     //for kotlin
-    implementation deps.kotlin_stdlib
-    implementation deps.core_ktx
+    implementation Dependencies.kotlin_stdlib
+    implementation Dependencies.core_ktx
 
     //for support library
-    implementation deps.app_compat
+    implementation Dependencies.app_compat
 
     //for constraint layout
-    implementation deps.constraint_layout
+    implementation Dependencies.constraint_layout
 
     //for testing
-    testImplementation deps.junit
-    androidTestImplementation deps.junit_android_test
-    androidTestImplementation deps.espresso_core
+    testImplementation Dependencies.junit
+    androidTestImplementation Dependencies.junit_android_test
+    androidTestImplementation Dependencies.espresso_core
 }
